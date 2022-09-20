@@ -5,10 +5,13 @@ favicon:
 ---
 
 # Hi,
-I am pitscher, an artist, developer and designer who likes to play and critically engage with technology.
-This is my hyperlog. Other people call it a digital garden / blog / wiki whatever, but it's just a collection of interconnected text files. [Hypertext](https://en.wikipedia.org/wiki/Hypertext) if you will. As I wanted to get into the habit of writing, publishing it online gives me a sense of urgency and an imaginary audience to talk to. This hopefully makes it a bit more fun.
+I am [pitscher](https://pitscher.net), an artist, developer and designer who likes to play and critically engage with technology.
+This is my hyperlog. Other people call it their digital garden / blog / wiki or something else, but it's just a collection of interconnected text files. [Hypertext](https://en.wikipedia.org/wiki/Hypertext) if you will. 
+These documents serve me as a little diary as I want to start a habit of writing. I am honestly a bit scared putting my stuff out there for everyone to see. But I guess only some webscrapers are downloading it anyway. So here we go. Daily writing... or weekly.
 
-Right now I am just focused to get it up and running, which is why I chose this jekyll [template](https://github.com/meewgumi/green-web-template). But eventually I want to make it my own and maybe move over to [sveltekit](https://github.com/franknoirot/obsidian-sveltekit-blog) as my frontend.
+I'll be going over some [[technical details]] of this website at some point, too.
 
-
-![[lying_pitscher.jpg]]
+<figure style="max-width: 200px; float: right;">
+![[assets/images/lying_pitscher.jpg]]
+<figcaption>photo by Sara Piñeros</figcaption>
+</figure>

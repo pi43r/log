@@ -1,11 +1,14 @@
 ---
 layout: page
-title: Welcome! 🥬
+title: Hello, World!
 id: home
 ---
 
-<section class="callout">
-	Take a look at <a href="/your-first-note.html" class="internal-link">Your First Note</a> to get started on your exploration.
-</section>
+<ul>
+{% for note in site.notes %}
+<li><a href="{{ note.url }}{%- if site.use_html_extension -%}.html{%- endif -%}" class="internal-link">{{note.title}}</a>{% if note.category != null %} in {{note.category}}{% endif %} <span>({{ note.last_modified_at | date: "%d %B %Y" }})</li>
+{% endfor %}
+</ul>
 
-{% include_relative README.md %}
+
+
